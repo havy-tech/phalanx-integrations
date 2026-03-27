@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Ai;
+namespace Phalanx\Integration\Ai;
 
 final class AiConfig
 {

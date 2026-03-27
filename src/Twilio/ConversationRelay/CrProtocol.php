@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Twilio\ConversationRelay;
+namespace Phalanx\Integration\Twilio\ConversationRelay;
 
 final class CrProtocol
 {

@@ -1,6 +1,6 @@
 {
-    "name": "convoy/integrations",
-    "description": "AI and Twilio integrations for Convoy",
+    "name": "phalanx/integrations",
+    "description": "AI and Twilio integrations for Phalanx",
     "license": "MIT",
     "type": "library",
     "keywords": ["ai", "claude", "openai", "twilio", "sms", "voice", "integration", "async"],
@@ -10,21 +10,21 @@
             "email": "mail@jhavens.tech"
         }
     ],
-    "homepage": "https://github.com/havy-tech/convoy-integrations",
+    "homepage": "https://github.com/havy-tech/phalanx-integrations",
     "require": {
         "php": "^8.4",
-        "convoy/core": "^1.0",
-        "convoy/stream": "^1.0",
+        "phalanx/core": "^1.0",
+        "phalanx/stream": "^1.0",
         "react/http": "^1.10"
     },
     "autoload": {
         "psr-4": {
-            "Convoy\\Integration\\": "src/"
+            "Phalanx\\Integration\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Convoy\\Integration\\Tests\\": "tests/"
+            "Phalanx\\Integration\\Tests\\": "tests/"
         }
     },
     "extra": {

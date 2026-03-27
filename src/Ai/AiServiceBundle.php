@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Ai;
+namespace Phalanx\Integration\Ai;
 
-use Convoy\Service\ServiceBundle;
-use Convoy\Service\Services;
+use Phalanx\Service\ServiceBundle;
+use Phalanx\Service\Services;
 
 final class AiServiceBundle implements ServiceBundle
 {

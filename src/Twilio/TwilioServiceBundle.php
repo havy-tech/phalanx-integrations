@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Twilio;
+namespace Phalanx\Integration\Twilio;
 
-use Convoy\Service\ServiceBundle;
-use Convoy\Service\Services;
+use Phalanx\Service\ServiceBundle;
+use Phalanx\Service\Services;
 
 final class TwilioServiceBundle implements ServiceBundle
 {

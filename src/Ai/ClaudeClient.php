@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Ai;
+namespace Phalanx\Integration\Ai;
 
-use Convoy\Stream\Channel;
-use Convoy\Stream\Emitter;
+use Phalanx\Stream\Channel;
+use Phalanx\Stream\Emitter;
 use Psr\Http\Message\ResponseInterface;
 use React\Http\Browser;
 use React\Stream\ReadableStreamInterface;

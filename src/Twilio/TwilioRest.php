@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Convoy\Integration\Twilio;
+namespace Phalanx\Integration\Twilio;
 
 use Psr\Http\Message\ResponseInterface;
 use React\Http\Browser;
